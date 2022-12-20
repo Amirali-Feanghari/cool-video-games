@@ -25,40 +25,32 @@ let aon = -1
 
 
 function ch(){
-    let random = Math.floor(Math.random()* games.length)
     
     aon = aon +1
+    if(aon == games.length ){
+        aon = 0
+    }
 
     r.innerText = games[aon].name
     i.src = games[aon].picture
-    if(aon == games.length -1){
-        aon = -1
-    }
+
     
    
 }
-
-
-
-
-/*const role = games.length
-let role2 = 0
-function change(){
-
-    const role = games.length
-    let role2 = 0
-        
-
-        document.getElementById("p").innerText=games[role2].name
-        document.getElementById("img").src=games[role2].picture
-
-        console.log(role2)
+function ch1(){
+    
+    aon = aon -1
+    if(aon == -1){
+        aon = games.length - 1
+    }
+    if(aon == -2){
+        aon = games.length -1
     }
 
-    if(role2 == role){
-        role2 = 0
-    }else{
-        role2 =role2 +1
-        console.log(role2)
-    }*/
+    r.innerText = games[aon].name
+    i.src = games[aon].picture
+
+
     
+   
+}

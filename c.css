@@ -1,0 +1,34 @@
+body{
+    background-color: #181D31;
+}
+#color{
+    background-color: #678983;
+}
+#secondry{
+    background-color: #E6DDC4;
+    border-top: 5px;
+    border-color: #F0E9D2;
+
+}
+#p{
+    font-family:fantasy;
+    font-size: x-large;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+#click{
+    font-family: fantasy;
+    font-size: large;
+    color: black;
+    float: left;
+    color:#678983 ;
+    border-radius: 20px;
+    
+}
+#img{
+    height: 300px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
